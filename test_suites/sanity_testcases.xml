@@ -4,15 +4,10 @@
 
   <test name="Test Suite 1" preserve-order="true" verbose="2" >
     <classes>
-           <class name="sanitySuite.TestCase_1_GoogleSearch" />
+           <class name="sanitySuite.TestCase_1_Plaintiff_Defedant_Search" />
     </classes>
   </test>
   
- <!-- test name="Test Suite 2" preserve-order="true" verbose="2" >
-    <classes>
-           <class name="sanitySuite.TestCase_2_GoogleSearch" />
-    </classes>
-  </test-->
   
    
 </suite>

@@ -12,9 +12,9 @@ import java.util.List;
 import base.PageBase;
 
 
-public class Syn_google_search extends PageBase {
+public class Plaintiff_Defendant_Search extends PageBase {
 
-	public Syn_google_search(WebDriver driver) {
+	public Plaintiff_Defendant_Search(WebDriver driver) {
 		super(driver);
 	}
 
@@ -53,32 +53,5 @@ public class Syn_google_search extends PageBase {
 		
 	}
 	
-	public String get_first_option(){
-		log.info("Select first option displayed by google search");
-		return searchFirstOption.getText();
-		
-	}
-	
-	public void select_first_option(){
-		log.info("Select first option displayed by google search");
-		searchFirstOption.click();
-		
-	}
 
-	/*******************************************************************************************
-	 * This POM method will be exposed in test case
-	 * @param 
-	 *******************************************************************************************/
-
-	public void search_by_first_option(String text_to_search) {
-
-		this.enter_text(text_to_search);
-		
-	}
-	
-	public void click_on_first_search_option () {
-
-		this.select_first_option();
-		
-	}
 }
